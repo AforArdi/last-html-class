@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color: rgb(210, 197, 180);
+        }
+        /* optional part, just for increasing web accessibility */
+        a {
+            display: inline-block; /* makes padding actually affect clickable area */
+            padding: 10px 12px;    /* increases clickable size */
+            margin: 6px;           /* adds space between links */
+        }
+    </style>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#educations">My Education</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#followme">Follow Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--main-->
+    <main>
+        <!--intro-->
+        <section>
+            <img src="./images/myself2.png" alt="Mohammad Ardi" width="80" style="border-radius: 50%; margin:0%; padding: 0%;">
+            <h1>Mohammad Ardi</h1>
+            <p><mark>Learning</mark> to be a <mark>Full Stack</mark> Web Developer</p>
+            <p><strong>Living in:</strong> Khulna</p>
+            <p>I'm interested in tech field & every parts of it</p>
+            <p>My carrer Goal: To Become Successfull in Web Dev. InshAllah</p>
+        </section>
+        <!--skills-->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <table border="1" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>Activity</th>
+                        <th>Expertise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>C</td>
+                        <td rowspan="2">Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td rowspan="3">Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- skill progress -->
+             <div>
+                <h3>Skill Progress</h3>
+                <div>
+                    <label for="cprogress">C: </label>
+                    <progress id="cprogress" max="100" value="50">50%</progress>
+                </div>
+                
+                <div>
+                    <label for="sqlprogress">SQL: </label>
+                    <progress id="sqlprogress" max="100" value="60">60%</progress>
+                </div>
+                
+                <div>
+                    <label for="pythonprogress">Python: </label>
+                    <progress id="pythonprogress" max="100" value="40">60%</progress>
+                </div>
+                
+                <div>
+                    <label for="htmlcssprogress">HTML & CSS: </label>
+                    <progress id="htmlcssprogress" max="100" value="80">80%</progress>
+                </div>
+                
+                <div>
+                    <label for="javascriptprogress">JavaScript: </label>
+                    <progress id="javascriptprogress" max="100" value="10">10%</progress>
+                </div>
+            </div>
+            <!--Experience Level-->
+            <div>
+                <h3>Experience Level</h3>
+                <label for="experiencelevel"></label>
+                <meter id="experiencelevel" min="0" max="10" value="1"></meter>
+            </div>
+        </section>
+
+        <!--projects-->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article>
+                <h3>README.md File Project</h3>
+                <figure>
+                    <img src="./images/repopics/repopic_1.png" alt="Repository Pic 1" width="90">
+                    <img src="./images/repopics/repopic_2.png" alt="Repository Pic 2" width="90">
+                    <img src="./images/repopics/repopic_3.png" alt="Repository Pic 3" width="90">
+                    <figcaption>Here I practiced all the stuff about README.md file in this 
+                        <a href="https://www.github.com/AforArdi/mohammad-ardi">Repository</a>
+                    </figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>Github Command Project</h3>
+                <figure>
+                    <img src="./images/repopics/repopic_4.png" alt="Repository Pic 4" width="90">
+                    <img src="./images/repopics/repopic_5.png" alt="Repository Pic 5" width="90">
+                    <img src="./images/repopics/repopic_6.png" alt="Repository Pic 6" width="90">
+                    <figcaption>Here I practiced all the commands of git and github in this 
+                        <a href="https://www.github.com/AforArdi/mohammad-ardi">Repository</a>
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <!-- education -->
+        <section id="educations">
+            <h3>My Education Background</h3>
+            <table border="1" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Passing Year</th>
+                        <th>GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>JSC</td>
+                        <td rowspan="2">Khulna Public College</td>
+                        <td>2018</td>
+                        <td rowspan="2">5.00</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Khulna Govt. BL College</td>
+                        <td>2024</td>
+                        <td>4.92</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+
+        <!-- video added -->
+        <video width="350" controls>
+            <source src="./assets/video/dessert.mp4">
+            Your Browser doesn't support this type of video
+        </video>
+
+        <!--contact-->
+        <!-- anonardi71 formspree account and same mail as data receiver -->
+        <section>
+            <h3>Contact Me</h3>
+            <form action="https://formspree.io/f/xzzjwdzg" method="POST">
+                <!-- name, email, age -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <br>
+                    <!-- added min and max in number type -->
+                    <div>
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" min="18" max="40" required>
+                    </div>
+                </fieldset>
+                <br>
+                <!-- taking website as input -->
+                <div>
+                    <label for="website">Website</label>
+                    <input type="url" id="website" name="website" pattern="https?://.+">
+                    <!-- more patter details in javascript class -->
+                </div>
+                <br>
+                <!-- taking img as input -->
+                 <div>
+                    <label for="image">Upload Image</label>
+                    <input type="file" name="image" id="image" accept="image/*">
+                    <!--accept=Only image files can be selected-->
+                 </div>
+                 <br>
+                <div>
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">
+                        <option value="feature">Feature</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="personal">Personal</option>
+                    </select>
+                </div>
+                <br>
+                <!-- color -->
+                <div>
+                    <label for="color">Favorite Color:</label>
+                    <input type="color" id="color" name="color" value="#fff000">
+                </div>
+                <br>
+                <!-- range attribute -->
+                <div>
+                    <label for="experience">Wbe Dev. Experience: </label>
+                    <input type="range" id="experience" name="experience" min="0" max="10">
+                </div>
+                <br>
+                <!-- fv_pg_lang -->
+                <div>
+                    <label for="language">Favorite Language:</label>
+                    <input list="fv_pg_lang" id="language" name="language">
+                    <datalist id="fv_pg_lang">
+                        <option value="C">
+                        <option value="Python">
+                        <option value="SQL">
+                        <option value="Javascript">
+                        <option value="HTML">
+                        <option value="CSS">
+                    </datalist>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" cols="100" required></textarea>
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </form>
+        </section>
+    </main>
+    <br>
+    <!--Footer-->
+    <footer>
+        <div id="address">
+            <iframe title="home address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22403.17457204611!2d89.40060428346048!3d22.860997819372116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9da13cc496c1%3A0x315d29b6413c878!2sMiksimal!5e1!3m2!1sen!2sbd!4v1760843746986!5m2!1sen!2sbd" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="followme">
+            <h3>Follow me</h3>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/RAB06KHULNA" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                        Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/mohammad-ardi" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        Linkedin
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.github.com/AforArdi" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        Github
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <hr>
+            <p>Copyright &copy;Mohammad Ardi 2025 all right reserved</p>
+            <hr>
+        </div>
+    </footer>
+</body>
+</html>
